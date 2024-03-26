@@ -39,6 +39,18 @@ Buttons
 7. Upload/Download
 8. Redo/Undo
 
+Settings
+-
+1. Color Picker
+   - When the user clicks on color picker, the user can choose color and change color to draw.
+   - ![Color Picker](readme/settings/color_picker.png)
+   - Usage
+  |Before|Change|After|
+  |![before](readme/usage/color_picker/before.png)|![change](readme/usage/color_picker/changecolor.png)|![after](readme/usage/color_picker/result.png)
+<br>
+2. Brush size
+
+
 ## Bonus Function description
 1. Special brush -- Line
    - When click on the button, the user can draw a line on canvas.
