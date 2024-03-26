@@ -11,13 +11,13 @@ The program is written by daisyliu0225.
 | :----------------------------------------------- | :-------: | :-------: |
 | Basic control tools                              | 30%       | Y         |
 | Text input                                       | 10%       | Y         |
-| Cursor icon                                      | 10%       | N         |
+| Cursor icon                                      | 10%       | Y         |
 | Refresh button                                   | 5%        | Y         |
 
 | **Advanced tools**                               | **Score** | **Check** |
 | :----------------------------------------------- | :-------: | :-------: |
 | Different brush shapes                           | 15%       | Y         |
-| Un/Re-do button                                  | 10%       | N         |
+| Un/Re-do button                                  | 10%       | Y         |
 | Image tool                                       | 5%        | Y         |
 | Download                                         | 5%        | Y         |
 
@@ -28,21 +28,28 @@ The program is written by daisyliu0225.
 ---
 
 ### How to use 
-
-    Describe how to use your web and maybe insert images to help you explain.
+Buttons
+-
+1. Cursor
+2. Brush
+3. Eraser
+4. Special Brushes(Circle/Triangle/Square)
+5. Text
+6. Reset
+7. Upload/Download
+8. Redo/Undo
 
 ### Bonus Function description
-
-    Decribe your bonus function and how to use it.
+1. Special brush -- Line
+2. Text input -- Stroke text
 
 ### Web page link
 
     your web page URL.
 
 ### Others (Optional)
-
-    Anything you want to say to TAs.
-
+Dying inside<br>
+![dying inside]()
 ---
 
 ## Versions
