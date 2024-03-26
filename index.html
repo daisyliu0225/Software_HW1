@@ -76,44 +76,48 @@
                                 <tr>
                                     <td>
                                         <button id="cursor" class="toolBtns" onclick="curCur()">
-                                        <img src="./icons/cursor.png" alt="cursor" width="60" height="60"></button>
+                                        <img src="./icons/cursor.png" alt="cursor" width="43" height="43"></button>
                                     </td>
                                     <td>
                                         <button id="brush" class="toolBtns active" onclick="brushCursor()">
-                                        <img src="./icons/brush.png" alt="brush" width="60" height="60"></button>
+                                        <img src="./icons/brush.png" alt="brush" width="43" height="43"></button>
                                     </td>
                                     <td>
                                         <button id="eraser" class="toolBtns" onclick="eraserCursor()">
-                                        <img src="./icons/eraser.png" alt="eraser" width="60" height="60"></button>
+                                        <img src="./icons/eraser.png" alt="eraser" width="43" height="43"></button>
                                     </td>
                                     <td>
                                         <button id="circle" class="toolBtns" onclick="circleCursor()">
-                                        <img src="./icons/circle.png" alt="circle" width="60" height="60"></button>
+                                        <img src="./icons/circle.png" alt="circle" width="43" height="43"></button>
+                                    </td>
+                                    <td>
+                                        <button id="square" class="toolBtns" onclick="squareCursor()">
+                                        <img src="./icons/square.png" alt="square" width="43" height="43"></button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <button id="square" class="toolBtns" onclick="squareCursor()">
-                                        <img src="./icons/square.png" alt="square" width="60" height="60"></button>
+                                        <button id="line" class="toolBtns" onclick="lineCursor()">
+                                        <img src="./icons/line.png" alt="line" width="43" height="43"></button>
                                     </td>
                                     <td>
                                         <button id="triangle" class="toolBtns" onclick="triangleCursor()">
-                                        <img src="./icons/triangle.png" alt="triangle" width="60" height="60"></button>
+                                        <img src="./icons/triangle.png" alt="triangle" width="43" height="43"></button>
                                     </td>
                                     <td>
                                         <button id="text" class="toolBtns" onclick="textCursor()">
-                                        <img src="./icons/text1.png" alt="text" width="60" height="60"></button>
+                                        <img src="./icons/text1.png" alt="text" width="43" height="43"></button>
                                     </td>
-                                    <td><button id="reset" class="rst"><img src="./icons/reset1.png" alt="reset" width="60" height="60"></button></td>
+                                    <td><button id="reset" class="rst"><img src="./icons/reset1.png" alt="reset" width="43" height="43"></button></td>
                                 </tr>
                                 <tr>
                                     <td>
                                         <input type="file" id="uploadFile" accept="image/*" hidden/>
-                                        <button id="upload" class="upload"><img src="./icons/upload2_1.png" alt="upload" width="60" height="60"></button>
+                                        <button id="upload" class="upload"><img src="./icons/upload2_1.png" alt="upload" width="43" height="43"></button>
                                     </td>
-                                    <td><button id="download" class="dwnload"><img src="./icons/download1.png" alt="download" width="60" height="60"></button></td>
-                                    <td><button id="undoC" class="undo"><img src="./icons/undo1.png" alt="undo" width="60" height="60"></button></td>
-                                    <td><button id="redoC" class="redo"><img src="./icons/redo1.png" alt="redo" width="60" height="60"></button></td>
+                                    <td><button id="download" class="dwnload"><img src="./icons/download1.png" alt="download" width="43" height="43"></button></td>
+                                    <td><button id="undoC" class="undo"><img src="./icons/undo1.png" alt="undo" width="43" height="43"></button></td>
+                                    <td><button id="redoC" class="redo"><img src="./icons/redo1.png" alt="redo" width="43" height="43"></button></td>
                                 </tr>
                             </table>
                         </div> <!--the tool set-->
@@ -198,6 +202,9 @@
         }
         function textCursor(){
             document.body.style.cursor = "url('resize_cursors/text1.png'), auto";
+        }
+        function lineCursor(){
+            document.body.style.cursor = "url('resize_cursors/cursor_line.png'), auto";
         }
     </script>
     </div>

@@ -62,6 +62,7 @@ const drawing = (e) =>{
     else if(selectedTool === "circle") drawCircle(e);
     else if(selectedTool === "square") drawSquare(e);
     else if(selectedTool === "triangle") drawTriangle(e);
+    else if(selectedTool === "line") drawLine(e);
 }
 
 const stopDrawing = () =>{
@@ -189,6 +190,14 @@ function drawOnCanvas(txt, x, y){
     ctx.font = fontSize.value+ " " + fontStyle.value;
     if(stroke.checked) ctx.strokeText(txt, x-4, y-4);
     else ctx.fillText(txt, x-4, y-4);
+}
+
+//functions for draw line
+const drawLine = (e) =>{
+    ctx.beginPath(); 
+    ctx.moveTo(preMouseX, preMouseY); 
+    ctx.lineTo(e.offsetX, e.offsetY); 
+    ctx.stroke(); 
 }
 
 //functions for undo and redo
