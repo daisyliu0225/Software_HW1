@@ -44,8 +44,8 @@ Buttons
    - When click on the button, the user can draw a line on canvas.
    - ![line icon](readme/buttons/line.png)
 2. Text input -- Stroke text
-   - In addition to text style and text font, there is also a stroke text which can make the words hollow.
-   - ![stroke text](readme/settings/font_settings.png)
+   - In addition to text style and text font, there is also a stroke text which can make the words hollow before user inputs text.
+   - ![stroke text](readme/settings/font_settings2.png)
 
 ## Web page link
 
