@@ -5,7 +5,7 @@
 This is a project of the 2023 Spring Software studio class in National Tsing Hua University.
 The program is written by daisyliu0225.
 
-### Scoring
+## Scoring
 
 | **Basic components**                             | **Score** | **Check** |
 | :----------------------------------------------- | :-------: | :-------: |
@@ -27,7 +27,7 @@ The program is written by daisyliu0225.
 
 ---
 
-### How to use 
+## How to use 
 Buttons
 -
 1. Cursor
@@ -39,17 +39,18 @@ Buttons
 7. Upload/Download
 8. Redo/Undo
 
-### Bonus Function description
+## Bonus Function description
 1. Special brush -- Line
 2. Text input -- Stroke text
 
-### Web page link
+## Web page link
 
     your web page URL.
 
-### Others (Optional)
-Dying inside<br>
-![dying inside]()
+## Others (Optional)
+
+I am so tired QQ.
+![dying inside](readme/dying_inside.png)
 ---
 
 ## Versions
