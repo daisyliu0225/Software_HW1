@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>An online canvas</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="coloris.min.css" />
+</head>
+
+<body onload = setCursor()>
+    <div class="page">
+        <section class="drawingBoard" id="dB">
+            <canvas id="myCanvas"></canvas>
+        </section> <!--drawing board for canvas-->
+        <section class="tools">
+            <table class="t1">
+                <tr class="t1row">
+                    <td>
+                        <div class="settings">
+                            <label for="" class="secTitle"><strong>Settings</strong></label>
+                            <table>
+                                <tr><td>
+                                    <div class="circle">
+                                        <label>Color Picker</label><br>
+                                        <input type="text" id="colorPicker" class="coloris instance2" value="#cc458faa"><br>
+                                    </div>
+                                </td></tr>
+                                <tr><td>
+                                    <label>Brush size</label><br>
+                                    <img src="./icons/brush.png" alt="brush" width="10" height="10">
+                                    <input type="range" id="slider" min="1" max="30" value="5" oninput="this.nextElementSibling.value = this.value">
+                                    <output>5</output>
+                                </td></tr>
+                                <tr><td>
+                                    <label>Font Settings</label><br>
+                                    <table>
+                                        <tc><td>
+                                            <select class="fontStyle">
+                                                <option value="Arial" selected>Arial</option>
+                                                <option value="Brush Script MT">Brush Script MT</option>
+                                                <option value="Comic Sans MS">Comic Sans MS</option>
+                                                <option value="Fantasy">Fantasy</option>
+                                                <option value="Monospace">Monospace</option>
+                                            </select>
+                                        </td></tc>
+                                        <tc><td>
+                                            <select class="fontSize">
+                                                <option value="10px">10</option>
+                                                <option value="20px" selected>20</option>
+                                                <option value="30px">30</option>
+                                                <option value="40px">40</option>
+                                                <option value="50px">50</option>
+                                            </select>
+                                        </td></tc>
+                                        <tc><td>
+                                            <input type="checkbox" id="strokeText">
+                                            <label for="strokeText">Stroke text</label>
+                                        </td></tc>
+                                    </table>
+                                </td></tr>
+                                <tr><td>
+                                    <label>Shape settings</label><br>
+                                    <input type="checkbox" id="fillColor">
+                                    <label for="fillColor">Fill color</label>
+                                </td></tr>
+                            </table>
+                        </div> <!--The setting of the tools-->
+                    <td>
+                <tr>
+
+                <tr class="t1row">
+                    <td>
+                        <div class="toolSet">
+                            <label for="" class="secTitle"><strong>Tools</strong></label>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <button id="cursor" class="toolBtns" onclick="curCur()">
+                                        <img src="./icons/cursor.png" alt="cursor" width="60" height="60"></button>
+                                    </td>
+                                    <td>
+                                        <button id="brush" class="toolBtns active" onclick="brushCursor()">
+                                        <img src="./icons/brush.png" alt="brush" width="60" height="60"></button>
+                                    </td>
+                                    <td>
+                                        <button id="eraser" class="toolBtns" onclick="eraserCursor()">
+                                        <img src="./icons/eraser.png" alt="eraser" width="60" height="60"></button>
+                                    </td>
+                                    <td>
+                                        <button id="circle" class="toolBtns" onclick="circleCursor()">
+                                        <img src="./icons/circle.png" alt="circle" width="60" height="60"></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button id="square" class="toolBtns" onclick="squareCursor()">
+                                        <img src="./icons/square.png" alt="square" width="60" height="60"></button>
+                                    </td>
+                                    <td>
+                                        <button id="triangle" class="toolBtns" onclick="triangleCursor()">
+                                        <img src="./icons/triangle.png" alt="triangle" width="60" height="60"></button>
+                                    </td>
+                                    <td>
+                                        <button id="text" class="toolBtns" onclick="textCursor()">
+                                        <img src="./icons/text1.png" alt="text" width="60" height="60"></button>
+                                    </td>
+                                    <td><button id="reset" class="rst"><img src="./icons/reset1.png" alt="reset" width="60" height="60"></button></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="file" id="uploadFile" accept="image/*" hidden/>
+                                        <button id="upload" class="upload"><img src="./icons/upload2_1.png" alt="upload" width="60" height="60"></button>
+                                    </td>
+                                    <td><button id="download" class="dwnload"><img src="./icons/download1.png" alt="download" width="60" height="60"></button></td>
+                                    <td><button id="undoC" class="undo"><img src="./icons/undo1.png" alt="undo" width="60" height="60"></button></td>
+                                    <td><button id="redoC" class="redo"><img src="./icons/redo1.png" alt="redo" width="60" height="60"></button></td>
+                                </tr>
+                            </table>
+                        </div> <!--the tool set-->
+                    <td>
+                <tr>
+            <table>
+        </section>
+
+    <!--embed for color picker-->
+    <script src="./app.js"></script>
+    <script type="text/javascript" src="coloris.min.js"></script>
+
+    <script type="text/javascript">
+
+    /** Default configuration **/
+
+    Coloris({
+      el: '.coloris',
+      swatches: [
+        '#264653',
+        '#2a9d8f',
+        '#e9c46a',
+        '#f4a261',
+        '#e76f51',
+        '#d62828',
+        '#023e8a',
+        '#0077b6',
+        '#0096c7',
+        '#00b4d8',
+        '#48cae4'
+      ]
+    });
+
+    /** Instances **/
+
+    Coloris.setInstance('.instance1', {
+      theme: 'pill',
+      themeMode: 'dark',
+      formatToggle: true,
+      closeButton: true,
+      clearButton: true,
+      swatches: [
+        '#067bc2',
+        '#84bcda',
+        '#80e377',
+        '#ecc30b',
+        '#f37748',
+        '#d56062'
+      ]
+    });
+
+    Coloris.setInstance('.instance2', { theme: 'polaroid' });
+
+    Coloris.setInstance('.instance3', {
+      theme: 'polaroid',
+      swatchesOnly: true
+    });
+
+    </script>
+
+    <script>
+        function setCursor(){
+            document.body.style.cursor = "url('resize_cursors/brush.png'), auto";
+        }
+        function curCur(){
+            document.body.style.cursor = "url('resize_cursors/cursor.png'), auto";
+        }
+        function brushCursor(){
+            document.body.style.cursor = "url('resize_cursors/brush.png'), auto";
+        }
+        function eraserCursor(){
+            document.body.style.cursor = "url('resize_cursors/eraser.png'), auto";
+        }
+        function circleCursor(){
+            document.body.style.cursor = "url('resize_cursors/cursor_circle.png'), auto";
+        }
+        function squareCursor(){
+            document.body.style.cursor = "url('resize_cursors/cursor_square1.png'), auto";
+        }
+        function triangleCursor(){
+            document.body.style.cursor = "url('resize_cursors/cursor_triangle1.png'), auto";
+        }
+        function textCursor(){
+            document.body.style.cursor = "url('resize_cursors/text1.png'), auto";
+        }
+    </script>
+    </div>
+</body>
