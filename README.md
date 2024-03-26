@@ -49,7 +49,7 @@ Buttons
 
 ### Others (Optional)
 Dying inside<br>
-![dying inside]()
+![dying inside](readme/dying_inside.png)
 ---
 
 ## Versions
