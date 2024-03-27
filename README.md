@@ -115,8 +115,8 @@ Settings
    - When the user clicks on the brush size slider, the user can choose the size of brush and special brush.
    - ![brush size](readme/settings/brush_size.png)
    - Usage
-   - Size 5 <br>![size 5](readme/usage/brush_size/brushSize1.png)
-   - Size 25 <br>![size 25](readme/usage/brush_size/brushSize2.png)
+   - Size 5 <br> ![size 5](readme/usage/brush_size/brushSize1.png)
+   - Size 25 <br> ![size 25](readme/usage/brush_size/brushSize2.png)
 <br>
 
 Example
