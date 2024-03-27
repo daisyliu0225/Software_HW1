@@ -36,82 +36,56 @@ Panel
 Tools
 -
 1. Cursor
-   - When the user clicks on the cursor button, the cursor becomes a cursor and the canvas cannot do any editing.<br>
-   - Cursor icon ![cursor icon](readme/buttons/cursor.png)<br>
-   - Cursor cursor ![cursor cursor](resize_cursors/cursor.png)<br><br>
+   - When the user clicks on the cursor button, the cursor becomes a cursor and the canvas cannot do any editing.<br><br>
    
 2. Brush
-   - When the user clicks on the brush button, the cursor becomes the brush and the user can draw on the canvas.<br>
-   - Brush icon ![brush icon](readme/buttons/brush.png)<br>
-   - Brush cursor ![brush cursor](resize_cursors/brush.png)<br><br>
+   - When the user clicks on the brush button, the cursor becomes the brush and the user can draw on the canvas.<br><br>
+   
 3. Eraser
-   - When the user clicks on the eraser button, the cursor becomes an eraser and the user can erase things on canvas.<br>
-   - Eraser icon ![eraser icon](readme/buttons/eraser.png)<br>
-   - Eraser cursor ![eraser cursor](resize_cursors/eraser.png)<br><br>
+   - When the user clicks on the eraser button, the cursor becomes an eraser and the user can erase things on canvas.<br><br>
+
 4. Special Brushes(Circle/Triangle/Square)
-   - When the user clicks on the circle/triangle/square brush, the cursor becomes special cursors and the user can draw the shapes.
-   - Circle
-     - Circle icon ![circle icon](readme/buttons/circle.png)<br>
-     - Circle cursor ![circle cursor](resize_cursors/cursor_circle.png)<br><br>
-   - Square
-     - Square icon ![square icon](readme/buttons/square.png)<br>
-     - Square cursor ![square cursor](resize_cursors/cursor_square1.png)<br><br>
-   - Triangle
-     - Triangle icon ![triangle icon](readme/buttons/triangle.png)<br>
-     - Triangle cursor ![triangle cursor](resize_cursors/cursor_triangle1.png)<br><br>
+   - When the user clicks on the circle/triangle/square brush, the cursor becomes special cursors and the user can draw the shapes.<br><br>
+   
 5. Text
-   - When the user clicks on the text button, the cursor besomes text and the user can input text.
-   - Text icon ![text icon](readme/buttons/text.png)<br>
-   - Text cursor ![text cursor](resize_cursors/text1.png)<br><br>
+   - When the user clicks on the text button, the cursor besomes text and the user can input text.<br><br>
    
 6. Reset
-   - When the user clicks on the button, the user can reset the whole canvas. A small alert message shows.
-   - Reset icon ![reset icon](readme/buttons/reset.png)<br><br>
+   - When the user clicks on the button, the user can reset the whole canvas. A small alert message shows.<br><br>
    
 7. Upload/Download
    - Upload
      - When the user clicks on the upload button, the user can upload an image unto the canvas.
-     - Upload icon ![upload icon](readme/buttons/upload.png)<br>
    - Download
-     - When the user clicks on the download button, the user can download the image on the canvas.
-     - Download icon ![download icon](readme/buttons/download.png)<br><br>
+     - When the user clicks on the download button, the user can download the image on the canvas.<br><br>
      
 8. Redo/Undo
    - Redo
      - When the user clicks on the redo button, the user can redo canvas.
-     - Redo icon ![redo icon](readme/buttons/redo.png)<br>
    - Undo
-     - When the user clicks on the undo button, the user can undo canvas.
-     - Undo icon ![undo icon](readme/buttons/undo.png)<br><br>
+     - When the user clicks on the undo button, the user can undo canvas.<br><br>
 
 Settings
 -
 1. Color Picker
    - When the user clicks on color picker, the user can choose color and change color to draw.
-   - ![Color Picker](readme/settings/color_picker.png)
 <br><br>
 2. Brush size
    - When the user clicks on the brush size slider, the user can choose the size of brush and special brush.<br>
-   - ![Brush Size](readme/settings/brush_size.png)
 <br><br>
 3. Font Settings
    - The user can change the font style in the first dropdown and change the font size in the second dropdown.
-   - ![Font Settings](readme/settings/font_settings.png)
 <br><br>
 4. Shape Filling
    - The user can click on the checkbox to determine if the user wants the shape filled.
-   - ![Shape Filling](readme/settings/Shape_settings.png)
 <br><br>
 
 ## Bonus Function description
 1. Special brush -- Line
    - When click on the button, the user can draw a line on canvas. The cursor turns into line cursor
-   - ![line icon](readme/buttons/line.png)
-   - ![line cursor](resize_cursors/cursor_line.png)
 <br>
 2. Text input -- Stroke text
    - In addition to text style and text font, there is also a stroke text which can make the words hollow before user inputs text.
-   - ![stroke text](readme/settings/font_settings2.png)
    - Below is than example of the difference of stroke/ no stroke
      ![compare](readme/usage/stroke.png)
 <br>
