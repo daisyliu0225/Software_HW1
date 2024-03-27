@@ -9,6 +9,7 @@ cursorBtn = document.querySelector("#cursor");
 toolBtns = document.querySelectorAll(".toolBtns");
 textBtn = document.querySelector("#text");
 stampBtn = document.querySelector("#stamp");
+stampType = document.querySelector(".typeStamp")
 undoBtn = document.querySelector(".undo"); //button for undo
 redoBtn = document.querySelector(".redo"); //button for undo
 uploadBtn = document.querySelector("#upload");
@@ -22,6 +23,8 @@ const cursor = document.querySelector(".bodyCursor");
 
 var font = "12px Arial", hasInput = "false", written = "false";
 //handle font input
+
+var stamped = "false";
 
 //global variables with default values
 let preMouseX, preMouseY, snapshot, isDrawing = false, selectedTool = "brush", brushWidth = 5, selectedColor = "#cc458faa";
@@ -74,6 +77,7 @@ const stopDrawing = () =>{
 toolBtns.forEach(Element => { 
     Element.addEventListener("click", () => { 
         written = false;
+        stamped = false;
         console.log("input " + written);
         const tag = document.querySelector(".active");
         console.log(tag);
@@ -195,8 +199,16 @@ function drawOnCanvas(txt, x, y){
 
 //function for stamp
 stampBtn.addEventListener("click", function(){
+    stamped = true;
     canvas.onclick = function(e){
-        drawHeart(e.offsetX, e.offsetY);
+        if(stamped == true){
+            if(stampType.value == "heart") drawHeart(e.offsetX, e.offsetY);
+            else if(stampType.value == "smile") drawSmile(e.offsetX, e.offsetY);
+            else if(stampType.value == "swirl") drawSwirl(e.offsetX, e.offsetY);
+            else if(stampType.value == "raindrop") drawDrop(e.offsetX, e.offsetY);
+            else if(stampType.value == "star") drawStar(e.offsetX, e.offsetY);
+        }
+        cPush();
     }
 })
 
@@ -211,6 +223,47 @@ function drawHeart(x, y){
     ctx.bezierCurveTo(x+10, y-15, x, y-3, x, y);
     ctx.fillStyle = colorPicker.value;
     ctx.fill();
+}
+
+function drawSmile(x, y){
+    ctx.beginPath();
+    ctx.arc(x, y, 50, 0, Math.PI * 2); // Outer circle
+    ctx.moveTo(x+35, y);
+    ctx.arc(x, y, 35, 0, Math.PI); // Mouth (clockwise)
+    //ctx.moveTo(x-10, x-10);
+    ctx.arc(x-15, y-10, 5, 0, Math.PI * 2); // Left eye
+    //ctx.moveTo(x+20, x-10);
+    ctx.arc(x+15, y-10, 5, 0, Math.PI * 2); // Right eye
+    ctx.strokeStyle = colorPicker.value;
+    ctx.stroke();
+}
+
+function drawStar(cx, cy){
+    var rot=Math.PI/2*3;
+    var step=Math.PI/5;
+    var x = cx;
+    var y = cy;
+
+      ctx.beginPath();
+      ctx.moveTo(cx,cy-30);
+      for(i=0;i<5;i++){
+        x=cx+Math.cos(rot)*30;
+        y=cy+Math.sin(rot)*30;
+        ctx.lineTo(x,y);
+        rot+=step;
+
+        x=cx+Math.cos(rot)*15;
+        y=cy+Math.sin(rot)*15;
+        ctx.lineTo(x,y)
+        rot+=step
+      }
+      ctx.lineTo(cx,cy-30);
+      ctx.closePath();
+      ctx.lineWidth=5;
+      ctx.strokeStyle = colorPicker.value;
+      ctx.stroke();
+      ctx.fillStyle = colorPicker.value;
+      ctx.fill();
 }
 
 //functions for draw line

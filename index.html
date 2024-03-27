@@ -63,6 +63,18 @@
                                     <input type="checkbox" id="fillColor">
                                     <label for="fillColor">Fill color</label>
                                 </td></tr>
+                                <tr>
+                                    <tc><td>
+                                        <label>Stamp Type</label><br>
+                                        <select class="typeStamp">
+                                            <option value="heart" selected>heart</option>
+                                            <option value="smile">smile</option>
+                                            <option value="swirl">swirl</option>
+                                            <option value="star">star</option>
+                                            <option value="raindrop">raindrop</option>
+                                        </select>
+                                    </td></tc>
+                                </tr>
                             </table>
                         </div> <!--The setting of the tools-->
                     <td>
@@ -211,7 +223,7 @@
             document.body.style.cursor = "url('resize_cursors/cursor_line.png'), auto";
         }
         function stampCursor(){
-            document.body.style.cursor = "url('resize_cursors/cursor_line.png'), auto";
+            document.body.style.cursor = "url('resize_cursors/stamp.png'), auto";
         }
     </script>
     </div>
