@@ -39,25 +39,31 @@ Tools
    - When the user clicks on the cursor button, the cursor becomes a cursor and the canvas cannot do any editing.<br>
    - Cursor icon ![cursor icon](readme/buttons/cursor.png)<br>
    - Cursor cursor ![cursor cursor](resize_cursors/cursor.png)<br><br>
+   
 2. Brush
    - When the user clicks on the brush button, the cursor becomes the brush and the user can draw on the canvas.<br>
    - Brush icon ![brush icon](readme/buttons/brush.png)<br>
-   - Brush cursor ![brush cursor](resize_cursors/brush.png)<br><br>
+   - Brush cursor ![brush cursor](resize_cursors/brush.png)<br>
+   - Usage ![brush usage](readme/usage/tools/brush.png)<br><br>
 3. Eraser
    - When the user clicks on the eraser button, the cursor becomes an eraser and the user can erase things on canvas.<br>
    - Eraser icon ![eraser icon](readme/buttons/eraser.png)<br>
-   - Eraser cursor ![eraser cursor](resize_cursors/eraser.png)<br><br>
+   - Eraser cursor ![eraser cursor](resize_cursors/eraser.png)<br>
+   - Usage ![eraser usage](readme/usage/tools/eraser.png)<br><br>
 4. Special Brushes(Circle/Triangle/Square)
    - When the user clicks on the circle/triangle/square brush, the cursor becomes special cursors and the user can draw the shapes.
    - Circle
      - Circle icon ![circle icon](readme/buttons/circle.png)<br>
-     - Circle cursor ![circle cursor](resize_cursors/cursor_circle.png)<br><br>
+     - Circle cursor ![circle cursor](resize_cursors/cursor_circle.png)<br>
+     - Usage ![circle usage](readme/usage/tools/circle.png)<br><br>
    - Square
      - Square icon ![square icon](readme/buttons/square.png)<br>
      - Square cursor ![square cursor](resize_cursors/cursor_square1.png)<br><br>
+     - Usage ![square usage](readme/usage/tools/square.png)<br><br>
    - Triangle
      - Triangle icon ![triangle icon](readme/buttons/triangle.png)<br>
-     - Triangle cursor ![triangle cursor](resize_cursors/cursor_triangle1.png)<br><br>
+     - Triangle cursor ![triangle cursor](resize_cursors/cursor_triangle1.png)<br>
+     - Usage ![triangle usage](readme/usage/tools/triangle.png)<br><br>
 5. Text
    - When the user clicks on the text button, the cursor besomes text and the user can input text.
    - Text icon ![text icon](readme/buttons/text.png)<br>
