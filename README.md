@@ -116,7 +116,8 @@ Settings
    - ![brush size](readme/settings/brush_size.png)
    - Usage
    - Size 5 <br>![size 5](readme/usage/brush_size/brushSize1.png)
-   - Size 25 <br> ![size 25](readme/usage/brush_size/brushSize2.png)
+   - Size 25 <br>![size 25](readme/usage/brush_size/brushSize2.png)
+<br>
 
 Example
 -
