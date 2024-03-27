@@ -115,7 +115,7 @@ Settings
 
 Example
 -
-![example](readme/usage/tools/example/png)
+![example](readme/usage/tools/example.png)
 
 ## Bonus Function description
 1. Special brush -- Line
