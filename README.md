@@ -92,7 +92,7 @@ Settings
 <br><br>
 2. Brush size
    - When the user clicks on the brush size slider, the user can choose the size of brush and special brush.<br>
-   - ![Color Picker](readme/settings/color_picker.png)
+   - ![Brush Size](readme/settings/brush_size.png)
 <br><br>
 
 Example
