@@ -27,7 +27,10 @@ The program is written by daisyliu0225.
 
 ---
 
-## How to use 
+## How to use
+Panel
+-
+![panel](readme/panel.png)<br>
 Buttons
 -
 1. Cursor
