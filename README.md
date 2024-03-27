@@ -56,7 +56,7 @@ Tools
      - Square icon ![square icon](readme/buttons/square.png)<br>
      - Square cursor ![square cursor](resize_cursors/cursor_square1.png)<br><br>
    - Triangle
-     - Triangle icon ![triangle icon](readme/buttons/triangle/png)<br>
+     - Triangle icon ![triangle icon](readme/buttons/triangle.png)<br>
      - Triangle cursor ![triangle cursor](resize_cursors/cursor_triangle1.png)<br><br>
 5. Text
    - When the user clicks on the text button, the cursor besomes text and the user can input text.
