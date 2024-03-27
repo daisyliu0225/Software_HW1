@@ -30,8 +30,10 @@ The program is written by daisyliu0225.
 ## How to use
 Panel
 -
+- This is the panel of the project. The white part on the left is the canvas. The yellow part is the settings and the tools we use to draw on canvas.
 ![panel](readme/panel.png)<br>
-Buttons
+
+Tools
 -
 1. Cursor
    - When the user clicks on the cursor button, the cursor becomes a cursor and the canvas cannot do any editing.<br>
