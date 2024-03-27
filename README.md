@@ -94,6 +94,14 @@ Settings
    - When the user clicks on the brush size slider, the user can choose the size of brush and special brush.<br>
    - ![Brush Size](readme/settings/brush_size.png)
 <br><br>
+3. Font Settings
+   - The user can change the font style in the first dropdown and change the font size in the second dropdown.
+   - ![Font Settings](readme/settings/font_settings.png)
+<br><br>
+4. Shape Filling
+   - The user can click on the checkbox to determine if the user wants the shape filled.
+   - ![Shape Filling](readme/settings/Shape_settings.png)
+<br><br>
 
 Example
 -
