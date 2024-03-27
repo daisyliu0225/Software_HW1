@@ -27,17 +27,23 @@ The program is written by daisyliu0225.
 
 ---
 
-## How to use 
+## How to use
+Panel
+-
+![panel](readme/panel.png)<br>
 Buttons
 -
 1. Cursor
-2. Brush
-3. Eraser
-4. Special Brushes(Circle/Triangle/Square)
-5. Text
-6. Reset
-7. Upload/Download
-8. Redo/Undo
+   - When the user clicks on the cursor button, the cursor becomes a cursor and the canvas cannot do any editing.<br>
+   - Cursor icon ![cursor icon](readme/buttons/cursor.png)<br>
+   - Cursor cursor ![cursor cursor](resize_cursors/cursor.png)<br>
+3. Brush
+4. Eraser
+5. Special Brushes(Circle/Triangle/Square)
+6. Text
+7. Reset
+8. Upload/Download
+9. Redo/Undo
 
 Settings
 -
@@ -79,3 +85,5 @@ I am so tired QQ.
 |4|2024/03/23|download function finished|
 |5|2024/03/24|Special brushes finished|
 |6|2024/03/24|Text input finished|
+|7|2024/03/25|Undo redo finished|
+|8|2024/03/27|Addition functions finished|
