@@ -113,6 +113,9 @@ Settings
 <br>
 2. Brush size
 
+Example
+-
+![example](readme/usage/tools/example.png)
 
 ## Bonus Function description
 1. Special brush -- Line
