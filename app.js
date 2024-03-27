@@ -9,6 +9,7 @@ cursorBtn = document.querySelector("#cursor");
 toolBtns = document.querySelectorAll(".toolBtns");
 textBtn = document.querySelector("#text");
 stampBtn = document.querySelector("#stamp");
+questionBtn = document.querySelector("#question");
 stampType = document.querySelector(".typeStamp")
 undoBtn = document.querySelector(".undo"); //button for undo
 redoBtn = document.querySelector(".redo"); //button for undo
@@ -25,6 +26,7 @@ var font = "12px Arial", hasInput = "false", written = "false";
 //handle font input
 
 var stamped = "false";
+var quest = "false";
 
 //global variables with default values
 let preMouseX, preMouseY, snapshot, isDrawing = false, selectedTool = "brush", brushWidth = 5, selectedColor = "#cc458faa";
@@ -221,7 +223,6 @@ function drawHeart(x, y){
     ctx.bezierCurveTo(x+35, y+62, x+55, y+40, x+55, y+12.5);
     ctx.bezierCurveTo(x+55, y+12.5, x+55, y-15, x+25, y-15);
     ctx.bezierCurveTo(x+10, y-15, x, y-3, x, y);
-    ctx.fillStyle = colorPicker.value;
     ctx.fill();
 }
 
@@ -234,7 +235,6 @@ function drawSmile(x, y){
     ctx.arc(x-15, y-10, 5, 0, Math.PI * 2); // Left eye
     //ctx.moveTo(x+20, x-10);
     ctx.arc(x+15, y-10, 5, 0, Math.PI * 2); // Right eye
-    ctx.strokeStyle = colorPicker.value;
     ctx.stroke();
 }
 
@@ -260,9 +260,6 @@ function drawStar(cx, cy, spikes){
       ctx.lineTo(cx,cy-30);
       ctx.closePath();
       ctx.lineWidth=5;
-      ctx.strokeStyle = colorPicker.value;
-      ctx.stroke();
-      ctx.fillStyle = colorPicker.value;
       ctx.fill();
 }
 
@@ -279,6 +276,41 @@ function drawSwirl(x, y){
         theta = theta + increment;
     }
     ctx.stroke();
+}
+
+//functions for question
+questionBtn.addEventListener("click", function(){
+    quest = true;
+    canvas.onclick = function(e){
+        var ran = Math.floor(Math.random() * 1000) % 5;
+        var qcolor = Math.floor(Math.random() * 10000) % 360;
+        ctx.fillStyle = "hsl(" + qcolor + ", 100%, 75%)";
+        if(ran == 0) drawHeart(e.offsetX, e.offsetY);
+        else if(ran == 1) drawStampCircle(e.offsetX, e.offsetY, qcolor);
+        else if(ran == 2) drawStar(e.offsetX, e.offsetY, 5);
+        else if(ran == 3) drawStampSquare(e.offsetX, e.offsetY, qcolor);
+        else if(ran == 4) drawStampTriangle(e.offsetX, e.offsetY, qcolor);
+    }
+})
+
+function drawStampCircle(x, y){
+    ctx.beginPath();
+    ctx.arc(x, y, 10, 0, 2 * Math.PI);
+    ctx.fill();
+}
+
+function drawStampSquare(x, y){
+    ctx.beginPath();
+    ctx.rect(x, y, 25, 25);
+    ctx.fill();
+}
+
+function drawStampTriangle(x, y){
+    ctx.beginPath();
+    ctx.moveTo(x, y);
+    ctx.lineTo(x+25, y+25);
+    ctx.lineTo(x-25, y+25);
+    ctx.fill();
 }
 
 //functions for draw line
