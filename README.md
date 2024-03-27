@@ -1,4 +1,4 @@
-<img width="619" alt="image" src="https://github.com/daisyliu0225/Software_HW1/assets/50540881/ba999835-1378-427a-b0ff-8500fc9111db"># Software Studio 2023 Spring
+# Software Studio 2023 Spring
 ## Assignment 01 Web Canvas
 
 ## Announcements
