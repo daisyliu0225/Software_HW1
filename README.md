@@ -67,27 +67,37 @@ Tools
 5. Text
    - When the user clicks on the text button, the cursor besomes text and the user can input text.
    - Text icon ![text icon](readme/buttons/text.png)<br>
-   - Text cursor ![text cursor](resize_cursors/text1.png)<br><br>
+   - Text cursor ![text cursor](resize_cursors/text1.png)<br>
+   - Usage ![text usage](readme/usage/tools/text.png)<br><br>
    
 6. Reset
    - When the user clicks on the button, the user can reset the whole canvas. A small alert message shows.
-   - Reset icon ![reset icon](readme/buttons/reset.png)<br><br>
+   - Reset icon ![reset icon](readme/buttons/reset.png)<br>
+   - Usage ![reset usage](readme/usage/tools/triangle.png)<br><br>
    
 7. Upload/Download
    - Upload
      - When the user clicks on the upload button, the user can upload an image unto the canvas.
      - Upload icon ![upload icon](readme/buttons/upload.png)<br>
+     - Usage ![upload usage](readme/usage/tools/upload.png)<br><br>
    - Download
      - When the user clicks on the download button, the user can download the image on the canvas.
-     - Download icon ![download icon](readme/buttons/download.png)<br><br>
+     - Download icon ![download icon](readme/buttons/download.png)<br>
+     - Usage ![download usage](readme/usage/tools/download.png)<br><br>
      
 8. Redo/Undo
    - Redo
      - When the user clicks on the redo button, the user can redo canvas.
      - Redo icon ![redo icon](readme/buttons/redo.png)<br>
-   - Download
+     - Usage
+       - Before ![redo usage before](readme/usage/tools/undoAfter.png)<br>
+       - After ![redo usage after](readme/usage/tools/redoAfter.png)<br>
+   - Undo
      - When the user clicks on the undo button, the user can undo canvas.
-     - Undo icon ![undo icon](readme/buttons/undo.png)<br><br>
+     - Undo icon ![undo icon](readme/buttons/undo.png)<br>
+     - Usage
+       - Before ![undo usage before](readme/usage/tools/undoBefore.png)<br>
+       - After ![redo usage before](readme/usage/tools/undoAfter.png)<br><br>
 
 Settings
 -
