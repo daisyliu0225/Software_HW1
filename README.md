@@ -53,7 +53,7 @@ Tools
      - Circle icon ![circle icon](readme/buttons/circle.png)<br>
      - Circle cursor ![circle cursor](resize_cursors/cursor_circle.png)<br><br>
    - Square
-     - Square icon ![square icon](readme/button/square.png)<br>
+     - Square icon ![square icon](readme/buttons/square.png)<br>
      - Square cursor ![square cursor](resize_cursors/cursor_square1.png)<br><br>
 6. Text
 7. Reset
