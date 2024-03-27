@@ -79,3 +79,5 @@ I am so tired QQ.
 |4|2024/03/23|download function finished|
 |5|2024/03/24|Special brushes finished|
 |6|2024/03/24|Text input finished|
+|7|2024/03/25|Undo redo finished|
+|8|2024/03/27|Addition functions finished|
