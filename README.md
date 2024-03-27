@@ -32,7 +32,7 @@ Buttons
 -
 1. Cursor
    - When the user clicks on the cursor button, the cursor becomes a cursor and the canvas cannot do any editing.<br>
-   - Cursor icon ![cursor icon](readme/cursor.png)<br>
+   - Cursor icon ![cursor icon](readme/buttons/cursor.png)<br>
    - Cursor cursor ![cursor cursor](resize_cursors/cursor.png)<br>
 3. Brush
 4. Eraser
