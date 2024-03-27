@@ -73,7 +73,9 @@ Tools
 6. Reset
    - When the user clicks on the button, the user can reset the whole canvas. A small alert message shows.
    - Reset icon ![reset icon](readme/buttons/reset.png)<br>
-   - Usage ![reset usage](readme/usage/tools/triangle.png)<br><br>
+   - Usage
+     - Press reset ![reset usage](readme/usage/tools/reset1.png)<br>
+     - Confirm ![reset usage](readme/usage/tools/reset2.png)<br><br>
    
 7. Upload/Download
    - Upload
@@ -90,7 +92,7 @@ Tools
      - When the user clicks on the redo button, the user can redo canvas.
      - Redo icon ![redo icon](readme/buttons/redo.png)<br>
      - Usage
-       - Before ![redo usage before](readme/usage/tools/undoAfter.png)<br>
+       - Before ![redo usage before](readme/usage/tools/undoBefore.png)<br>
        - After ![redo usage after](readme/usage/tools/redoAfter.png)<br>
    - Undo
      - When the user clicks on the undo button, the user can undo canvas.
