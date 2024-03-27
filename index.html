@@ -108,7 +108,10 @@
                                         <button id="text" class="toolBtns" onclick="textCursor()">
                                         <img src="./icons/text1.png" alt="text" width="43" height="43"></button>
                                     </td>
-                                    <td><button id="reset" class="rst"><img src="./icons/reset1.png" alt="reset" width="43" height="43"></button></td>
+                                    <td>
+                                        <button id = "stamp" class="toolBtns" onclick="stampCursor()">
+                                            <img src="./icons/stamp.png" alt="stamp" width="43" height="43"></button>
+                                    <td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -118,6 +121,7 @@
                                     <td><button id="download" class="dwnload"><img src="./icons/download1.png" alt="download" width="43" height="43"></button></td>
                                     <td><button id="undoC" class="undo"><img src="./icons/undo1.png" alt="undo" width="43" height="43"></button></td>
                                     <td><button id="redoC" class="redo"><img src="./icons/redo1.png" alt="redo" width="43" height="43"></button></td>
+                                    <td><button id="reset" class="rst"><img src="./icons/reset1.png" alt="reset" width="43" height="43"></button></td>
                                 </tr>
                             </table>
                         </div> <!--the tool set-->
@@ -204,6 +208,9 @@
             document.body.style.cursor = "url('resize_cursors/text1.png'), auto";
         }
         function lineCursor(){
+            document.body.style.cursor = "url('resize_cursors/cursor_line.png'), auto";
+        }
+        function stampCursor(){
             document.body.style.cursor = "url('resize_cursors/cursor_line.png'), auto";
         }
     </script>

@@ -87,6 +87,10 @@ body {
     background-color: cornsilk;
 }
 
+.stamp{
+    background-color: cornsilk;
+}
+
 .toolBtns:hover{
     background-color: #e8d794;
 }
@@ -112,6 +116,10 @@ body {
 }
 
 .text:hover{
+    background-color: #e8d794;
+}
+
+.stamp:hover{
     background-color: #e8d794;
 }
 
@@ -143,8 +151,8 @@ body {
     background-color: #f4c301;
 }
 
-button{
-    cursor: url("./resize_cursors/brush.png");
+.stamp:active{
+    background-color: #f4c301;
 }
 
 

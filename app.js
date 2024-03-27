@@ -8,6 +8,7 @@ fillColor = document.querySelector("#fillColor"); //to fill the shape or not
 cursorBtn = document.querySelector("#cursor");
 toolBtns = document.querySelectorAll(".toolBtns");
 textBtn = document.querySelector("#text");
+stampBtn = document.querySelector("#stamp");
 undoBtn = document.querySelector(".undo"); //button for undo
 redoBtn = document.querySelector(".redo"); //button for undo
 uploadBtn = document.querySelector("#upload");
@@ -190,6 +191,26 @@ function drawOnCanvas(txt, x, y){
     ctx.font = fontSize.value+ " " + fontStyle.value;
     if(stroke.checked) ctx.strokeText(txt, x-4, y-4);
     else ctx.fillText(txt, x-4, y-4);
+}
+
+//function for stamp
+stampBtn.addEventListener("click", function(){
+    canvas.onclick = function(e){
+        drawHeart(e.offsetX, e.offsetY);
+    }
+})
+
+function drawHeart(x, y){
+    ctx.beginPath();
+    ctx.moveTo(x, y);
+    ctx.bezierCurveTo(x, y-3, x-5, y-15, x-25, y-15);
+    ctx.bezierCurveTo(x-55, y-15, x-55, y+12.5, x-55, y+12.5);
+    ctx.bezierCurveTo(x-55, y+40, x-35, y+62, x, y+80);
+    ctx.bezierCurveTo(x+35, y+62, x+55, y+40, x+55, y+12.5);
+    ctx.bezierCurveTo(x+55, y+12.5, x+55, y-15, x+25, y-15);
+    ctx.bezierCurveTo(x+10, y-15, x, y-3, x, y);
+    ctx.fillStyle = colorPicker.value;
+    ctx.fill();
 }
 
 //functions for draw line
