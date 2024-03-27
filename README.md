@@ -71,7 +71,7 @@ Settings
    - When the user clicks on color picker, the user can choose color and change color to draw.
 <br><br>
 2. Brush size
-   - When the user clicks on the brush size slider, the user can choose the size of brush and special brush.<br>
+   - When the user clicks on the brush size slider, the user can choose the size of brush and special brush.
 <br><br>
 3. Font Settings
    - The user can change the font style in the first dropdown and change the font size in the second dropdown.
