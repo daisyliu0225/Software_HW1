@@ -80,6 +80,7 @@ toolBtns.forEach(Element => {
     Element.addEventListener("click", () => { 
         written = false;
         stamped = false;
+        quest = false;
         console.log("input " + written);
         const tag = document.querySelector(".active");
         console.log(tag);
@@ -285,11 +286,13 @@ questionBtn.addEventListener("click", function(){
         var ran = Math.floor(Math.random() * 1000) % 5;
         var qcolor = Math.floor(Math.random() * 10000) % 360;
         ctx.fillStyle = "hsl(" + qcolor + ", 100%, 75%)";
-        if(ran == 0) drawHeart(e.offsetX, e.offsetY);
-        else if(ran == 1) drawStampCircle(e.offsetX, e.offsetY, qcolor);
-        else if(ran == 2) drawStar(e.offsetX, e.offsetY, 5);
-        else if(ran == 3) drawStampSquare(e.offsetX, e.offsetY, qcolor);
-        else if(ran == 4) drawStampTriangle(e.offsetX, e.offsetY, qcolor);
+        if(quest == true){
+            if(ran == 0) drawHeart(e.offsetX, e.offsetY);
+            else if(ran == 1) drawStampCircle(e.offsetX, e.offsetY, qcolor);
+            else if(ran == 2) drawStar(e.offsetX, e.offsetY, 5);
+            else if(ran == 3) drawStampSquare(e.offsetX, e.offsetY, qcolor);
+            else if(ran == 4) drawStampTriangle(e.offsetX, e.offsetY, qcolor);
+        }
     }
 })
 
