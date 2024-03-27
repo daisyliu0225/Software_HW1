@@ -1,4 +1,4 @@
-# Software Studio 2023 Spring
+<img width="619" alt="image" src="https://github.com/daisyliu0225/Software_HW1/assets/50540881/ba999835-1378-427a-b0ff-8500fc9111db"># Software Studio 2023 Spring
 ## Assignment 01 Web Canvas
 
 ## Announcements
@@ -105,11 +105,28 @@ Settings
 
 ## Bonus Function description
 1. Special brush -- Line
-   - When click on the button, the user can draw a line on canvas.
+   - When click on the button, the user can draw a line on canvas. The cursor turns into line cursor
    - ![line icon](readme/buttons/line.png)
+   - ![line cursor](resize_cursors/cursor_line.png)
+<br>
 2. Text input -- Stroke text
    - In addition to text style and text font, there is also a stroke text which can make the words hollow before user inputs text.
    - ![stroke text](readme/settings/font_settings2.png)
+   - Below is than example of the difference of stroke/ no stroke
+     ![compare](readme/usage/stroke.png)
+<br>
+3. Stamp
+   - The user can stamp on the canvas using after pressing the stamp button and the cursor turns into a stamp.
+   - ![stamp icon](readme/buttons/stamp.png)
+   - ![stamp cursor](resize_cursors/stamp.png)
+   - The user can also change stamp style on the dropdown list in settings.
+   - ![stamp settings](readme/usage/addition/stamp_settings.png)
+   - The below are some examples using stamp
+   - ex1 ![ex1](readme/usage/stamp_star1.png)
+   - ex2 ![ex2](readme/usage/stamp_heart.png)
+<br>
+4. ???
+
 
 ## Example using the drawing app
 -
