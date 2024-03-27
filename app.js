@@ -205,8 +205,8 @@ stampBtn.addEventListener("click", function(){
             if(stampType.value == "heart") drawHeart(e.offsetX, e.offsetY);
             else if(stampType.value == "smile") drawSmile(e.offsetX, e.offsetY);
             else if(stampType.value == "swirl") drawSwirl(e.offsetX, e.offsetY);
-            else if(stampType.value == "raindrop") drawDrop(e.offsetX, e.offsetY);
-            else if(stampType.value == "star") drawStar(e.offsetX, e.offsetY);
+            else if(stampType.value == "raindrop") drawStar(e.offsetX, e.offsetY, 4);
+            else if(stampType.value == "star") drawStar(e.offsetX, e.offsetY, 5);
         }
         cPush();
     }
@@ -238,15 +238,15 @@ function drawSmile(x, y){
     ctx.stroke();
 }
 
-function drawStar(cx, cy){
+function drawStar(cx, cy, spikes){
     var rot=Math.PI/2*3;
-    var step=Math.PI/5;
+    var step=Math.PI/spikes;
     var x = cx;
     var y = cy;
 
       ctx.beginPath();
       ctx.moveTo(cx,cy-30);
-      for(i=0;i<5;i++){
+      for(i=0;i<spikes;i++){
         x=cx+Math.cos(rot)*30;
         y=cy+Math.sin(rot)*30;
         ctx.lineTo(x,y);
@@ -264,6 +264,21 @@ function drawStar(cx, cy){
       ctx.stroke();
       ctx.fillStyle = colorPicker.value;
       ctx.fill();
+}
+
+function drawSwirl(x, y){
+    ctx.moveTo(x, y);
+    var gap = 1.8;
+    var stepsPerRotation = 60;
+    var increment = 2*Math.PI/stepsPerRotation;
+    var theta = increment;
+    while(theta < 5*Math.PI){
+        var newX = x + theta * Math.cos(theta) * gap; 
+        var newY = y + theta * Math.sin(theta) * gap; 
+        ctx.lineTo(newX, newY);
+        theta = theta + increment;
+    }
+    ctx.stroke();
 }
 
 //functions for draw line
