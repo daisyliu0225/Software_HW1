@@ -103,10 +103,6 @@ Settings
    - ![Shape Filling](readme/settings/Shape_settings.png)
 <br><br>
 
-Example
--
-![example](readme/usage/tools/example.png)<br>
-
 ## Bonus Function description
 1. Special brush -- Line
    - When click on the button, the user can draw a line on canvas.
@@ -114,6 +110,10 @@ Example
 2. Text input -- Stroke text
    - In addition to text style and text font, there is also a stroke text which can make the words hollow before user inputs text.
    - ![stroke text](readme/settings/font_settings2.png)
+
+## Example using the drawing app
+-
+![example](readme/usage/tools/example.png)<br>
 
 ## Web page link
 
