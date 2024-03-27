@@ -107,9 +107,9 @@ Settings
    - When the user clicks on color picker, the user can choose color and change color to draw.
    - ![Color Picker](readme/settings/color_picker.png)
    - Usage
-  # - Before<br>|![before](readme/usage/color_picker/before.png)
-  # - Change<br>![change](readme/usage/color_picker/changecolor.png)
- #  - After<br>![after](readme/usage/color_picker/result.png)
+<!---   - Before<br>|![before](readme/usage/color_picker/before.png)
+   - Change<br>![change](readme/usage/color_picker/changecolor.png)
+   - After<br>![after](readme/usage/color_picker/result.png)--->
 <br>
 2. Brush size
    - When the user clicks on the brush size slider, the user can choose the size of brush and special brush.
