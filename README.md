@@ -92,7 +92,7 @@ Tools
      - When the user clicks on the redo button, the user can redo canvas.
      - Redo icon ![redo icon](readme/buttons/redo.png)<br>
      - Usage
-       - Before ![redo usage before](readme/usage/tools/undoAfter.png)<br>
+       - Before ![redo usage before](readme/usage/tools/undoBefore.png)<br>
        - After ![redo usage after](readme/usage/tools/redoAfter.png)<br>
    - Undo
      - When the user clicks on the undo button, the user can undo canvas.
