@@ -55,7 +55,14 @@ Tools
    - Square
      - Square icon ![square icon](readme/buttons/square.png)<br>
      - Square cursor ![square cursor](resize_cursors/cursor_square1.png)<br><br>
-6. Text
+   - Triangle
+     - Triangle icon ![triangle icon](readme/buttons/triangle/png)<br>
+     - Triangle cursor ![triangle cursor](resize_cursors/cursor_triangle1.png)<br><br>
+5. Text
+   - When the user clicks on the text, the cursor besomes text and the user can unput text.
+   - Text icon ![text icon](readme/buttons/text.png)<br>
+   - Text cursor ![text cursor](resize_cursors/text1.png)<br><br>
+   
 7. Reset
 8. Upload/Download
 9. Redo/Undo
