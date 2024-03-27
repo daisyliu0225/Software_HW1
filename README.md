@@ -90,12 +90,12 @@ Settings
      ![compare](readme/usage/stroke.png)
 <br>
 3. Stamp
-   - The user can stamp on the canvas using after pressing the stamp button and the cursor turns into a stamp.
+   - The user can stamp on the canvas using after pressing the stamp button and the cursor turns into a stamp.<br>
    - ![stamp icon](readme/buttons/stamp.png)
    - ![stamp cursor](resize_cursors/stamp.png)
-   - The user can also change stamp style on the dropdown list in settings.
+   - The user can also change stamp style on the dropdown list in settings.<br>
    - ![stamp settings](readme/usage/addition/stamp_settings.png)
-   - The below are some examples using stamp
+   - The below are some examples using stamp <br>
    - ex1 ![ex1](readme/usage/stamp_star1.png)
    - ex2 ![ex2](readme/usage/stamp_heart.png)
 <br>
