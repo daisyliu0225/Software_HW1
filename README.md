@@ -97,6 +97,12 @@ Settings
    - ex2 ![ex2](readme/usage/addition/stamp_heart.png)
 <br><br>
 4. ???
+   - This is a special stamp. The stamp generates random shape between circle, square, heart and also generates random color.<br>
+   - The stamp is not affected by the styles of stamp setting.<br>
+   - The below are some examples of the feature.<br>
+   - ex1 ![ex1](readme/usage/addition/question1.png)
+   - ex2 ![ex2](readme/usage/addition/question2.png)
+<br><br>
 
 
 
