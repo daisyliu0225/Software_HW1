@@ -83,20 +83,21 @@ Settings
 ## Bonus Function description
 1. Special brush -- Line
    - When click on the button, the user can draw a line on canvas. The cursor turns into line cursor
-<br>
+<br><br>
 2. Text input -- Stroke text
    - In addition to text style and text font, there is also a stroke text which can make the words hollow before user inputs text.
    - Below is than example of the difference of stroke/ no stroke
      ![compare](readme/usage/stroke.png)
-<br>
+<br><br>
 3. Stamp
    - The user can stamp on the canvas using after pressing the stamp button and the cursor turns into a stamp.<br>
    - The user can also change stamp style on the dropdown list in settings.<br>
    - The below are some examples using stamp <br>
    - ex1 ![ex1](readme/usage/stamp_star1.png)
    - ex2 ![ex2](readme/usage/stamp_heart.png)
-<br>
+<br><br>
 4. ???
+
 
 
 ## Example using the drawing app
