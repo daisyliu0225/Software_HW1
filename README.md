@@ -93,8 +93,8 @@ Settings
    - The user can stamp on the canvas using after pressing the stamp button and the cursor turns into a stamp.<br>
    - The user can also change stamp style on the dropdown list in settings.<br>
    - The below are some examples using stamp <br>
-   - ex1 ![ex1](readme/usage/stamp_star1.png)
-   - ex2 ![ex2](readme/usage/stamp_heart.png)
+   - ex1 ![ex1](readme/usage/addition/stamp_star1.png)
+   - ex2 ![ex2](readme/usage/addition/stamp_heart.png)
 <br><br>
 4. ???
 
