@@ -131,3 +131,5 @@ I am so tired QQ.
 |6|2024/03/24|Text input finished|
 |7|2024/03/25|Undo redo finished|
 |8|2024/03/27|Addition functions finished|
+
+<style text align:"right">--daisyliu0225</style>
