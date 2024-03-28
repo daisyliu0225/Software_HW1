@@ -36,13 +36,19 @@ Panel
 Tools
 -
 1. Cursor
-   - When the user clicks on the cursor button, the cursor becomes a cursor and the canvas cannot do any editing.<br><br>
+   - When the user clicks on the cursor button, the cursor becomes a cursor and the canvas cannot do any editing.<br>
+   - Button ![cursor button](readme/buttons/cursor.png)<br>
+   - Cursor ![cursor cursor](resize_cursors/cursor.png)<br><br>
    
 2. Brush
-   - When the user clicks on the brush button, the cursor becomes the brush and the user can draw on the canvas.<br><br>
+   - When the user clicks on the brush button, the cursor becomes the brush and the user can draw on the canvas.<br>
+   - Button ![brush button](readme/buttons/brush.png)<br>
+   - Cursor ![brush cursor](resize_cursors/brush.png)<br><br>
    
 3. Eraser
-   - When the user clicks on the eraser button, the cursor becomes an eraser and the user can erase things on canvas.<br><br>
+   - When the user clicks on the eraser button, the cursor becomes an eraser and the user can erase things on canvas.<br>
+   - Button ![eraser button](readme/buttons/eraser.png)<br>
+   - Cursor ![eraser cursor](resize_cursors/eraser.png)<br><br>
 
 4. Special Brushes(Circle/Triangle/Square)
    - When the user clicks on the circle/triangle/square brush, the cursor becomes special cursors and the user can draw the shapes.<br><br>
