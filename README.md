@@ -51,7 +51,12 @@ Tools
    - Cursor ![eraser cursor](resize_cursors/eraser.png)<br><br>
 
 4. Special Brushes(Circle/Triangle/Square)
-   - When the user clicks on the circle/triangle/square brush, the cursor becomes special cursors and the user can draw the shapes.<br><br>
+   - When the user clicks on the circle/triangle/square brush, the cursor becomes special cursors and the user can draw the shapes.<br>
+   - Circle
+     - Button ![brush button](readme/buttons/circle.png)<br>
+     - Cursor ![brush cursor](resize_cursors/cursor_circle.png)<br><br>
+   - Square
+   - Triangle
    
 5. Text
    - When the user clicks on the text button, the cursor besomes text and the user can input text.<br><br>
