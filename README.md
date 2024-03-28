@@ -30,7 +30,7 @@ The program is written by daisyliu0225.
 ## How to use
 Panel
 -
-- This is the panel of the project. The white part on the left is the canvas. The yellow part is the settings and the tools we use to draw on canvas.
+- This is the panel of the project. The white part on the left is the canvas. The yellow part is the settings and the tools we use to draw on canvas. The default tool onload is the brush.
 ![panel](readme/panel.png)<br>
 
 Tools
