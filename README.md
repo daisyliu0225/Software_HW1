@@ -116,6 +116,7 @@ Settings
 <br><br>
 2. Text input -- Stroke text
    - In addition to text style and text font, there is also a stroke text which can make the words hollow before user inputs text.
+   - ![settings](readme/settings/font_settings2.png)
    - Below is than example of the difference of stroke/ no stroke
    - usage ![compare](readme/usage/stroke.png)
 <br><br>
