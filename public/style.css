@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap);
+
+body {
+    background-color: #e3dede;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.page {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 55%;
+    height: 500px;
+}
+
+.drawingBoard canvas {
+    width: 60%;
+    height: 500px;
+    border-radius: 20px;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.tools {
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    float: right;
+    background-color: #f8f7f6;
+}
+
+.tools .settings {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    float: right;
+}
+
+.tools .toolSet {
+    width: 100%;
+    height: 220px;
+    border-radius: 20px;
+    float: right;
+}
+
+.circle .clr-field button {
+    width: 22px;
+    height: 22px;
+    left: 5px;
+    right: auto;
+    border-radius: 5px;
+  }
+
+.circle .clr-field input {
+    padding-left: 36px;
+  }
+
+.circle .clr-field button {
+    border-radius: 50%;
+}
+
+.toolBtns{
+    background-color: cornsilk;
+}
+
+.upload{
+    background-color: cornsilk;
+}
+
+.undo{
+    background-color: cornsilk;
+}
+.redo{
+    background-color: cornsilk;
+}
+
+.rst{
+    background-color: cornsilk;
+}
+
+.dwnload{
+    background-color: cornsilk;
+}
+
+.text{
+    background-color: cornsilk;
+}
+
+.stamp{
+    background-color: cornsilk;
+}
+
+.toolBtns:hover{
+    background-color: #e8d794;
+}
+
+.upload:hover{
+    background-color: #e8d794;
+}
+
+.dwnload:hover{
+    background-color: #e8d794;
+}
+
+.rst:hover{
+    background-color: #e8d794;
+}
+
+.undo:hover{
+    background-color: #e8d794;
+}
+
+.redo:hover{
+    background-color: #e8d794;
+}
+
+.text:hover{
+    background-color: #e8d794;
+}
+
+.stamp:hover{
+    background-color: #e8d794;
+}
+
+.active{
+    background-color: #f4c301;
+}
+
+.upload:active{
+    background-color: #f4c301;
+}
+
+.dwnload:active{
+    background-color: #f4c301;
+}
+
+.rst:active{
+    background-color: #f4c301;
+}
+
+.undo:active{
+    background-color: #f4c301;
+}
+
+.redo:active{
+    background-color: #f4c301;
+}
+
+.text:active{
+    background-color: #f4c301;
+}
+
+.stamp:active{
+    background-color: #f4c301;
+}
+
+
+
+
