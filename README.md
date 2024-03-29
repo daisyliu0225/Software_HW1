@@ -43,29 +43,41 @@ Tools
 2. Brush
    - When the user clicks on the brush button, the cursor becomes the brush and the user can draw on the canvas.<br>
    - Button ![brush button](readme/buttons/brush.png)<br>
-   - Cursor ![brush cursor](resize_cursors/brush.png)<br><br>
+   - Cursor ![brush cursor](resize_cursors/brush.png)<br>
+   - Usage
+     ![brush usage](readme/usage/tools/brush.png)<br><br>
    
 3. Eraser
    - When the user clicks on the eraser button, the cursor becomes an eraser and the user can erase things on canvas.<br>
    - Button ![eraser button](readme/buttons/eraser.png)<br>
-   - Cursor ![eraser cursor](resize_cursors/eraser.png)<br><br>
+   - Cursor ![eraser cursor](resize_cursors/eraser.png)<br>
+   - Usage
+     ![eraser usage](readme/usage/tools/eraser.png)<br><br>
 
 4. Special Brushes(Circle/Triangle/Square)
    - When the user clicks on the circle/triangle/square brush, the cursor becomes special cursors and the user can draw the shapes.<br>
    - Circle
      - Button ![circle button](readme/buttons/circle.png)<br>
-     - Cursor ![circle cursor](resize_cursors/cursor_circle.png)<br><br>
+     - Cursor ![circle cursor](resize_cursors/cursor_circle.png)<br>
+     - Usage
+        ![circle usage](readme/usage/tools/circle.png)<br><br>
    - Square
      - Button ![square button](readme/buttons/square.png)<br>
-     - Cursor ![square cursor](resize_cursors/cursor_square1.png)<br><br>
+     - Cursor ![square cursor](resize_cursors/cursor_square1.png)<br>
+     - Usage
+        ![square usage](readme/usage/tools/square.png)<br><br>
    - Triangle
      - Button ![triangle button](readme/buttons/triangle.png)<br>
-     - Cursor ![triangle cursor](resize_cursors/cursor_triangle1.png)<br><br>
+     - Cursor ![triangle cursor](resize_cursors/cursor_triangle1.png)<br>
+     - Usage
+        ![triangle usage](readme/usage/tools/triangle.png)<br><br>
    
 5. Text
    - When the user clicks on the text button, the cursor besomes text and the user can input text.<br>
    - Button ![text button](readme/buttons/text.png)<br>
-   - Cursor ![text cursor](resize_cursors/text1.png)<br><br>
+   - Cursor ![text cursor](resize_cursors/text1.png)<br>
+   - Usage
+     ![text usage](readme/usage/tools/text.png)<br><br>
    
 6. Reset
    - When the user clicks on the button, the user can reset the whole canvas. A small alert message shows.<br>
