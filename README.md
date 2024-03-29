@@ -139,12 +139,19 @@ Settings
    - ![size2](readme/usage/brush_size/brushSize2.png)
 <br><br>
 3. Font Settings
-   - The user can change the font style in the first dropdown and change the font size in the second dropdown.
-   - ![Font Settings](readme/settings/font_settings.png)
+   - The user can change the font style in the first dropdown and change the font size in the second dropdown.<br>
+   - ![Font Settings](readme/settings/font_settings.png)<br>
+   - Usage
+   - Font style<br>
+     ![style](readme/usage/font_style/style.png)
+   - Font size
+     ![size](readme/usage/font_style/size.png)
 <br><br>
 4. Shape Filling
    - The user can click on the checkbox to determine if the user wants the shape filled.
    - ![shape filling](readme/settings/Shape_settings.png)
+   - Usage
+     ![shape filling](readme/usage/shapeFilling.png)
 <br><br>
 
 ## Bonus Function description
