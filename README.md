@@ -106,7 +106,7 @@ Settings
 ## Bonus Function description
 1. Special brush -- Line
    - When click on the button, the user can draw a line on canvas. The cursor turns into line cursor
-   - Button ![line button](readme/line.png)<br>
+   - Button ![line button](readme/buttons/line.png)<br>
    - Cursor ![line cursor](resize_cursors/cursor_line.png)
 <br><br>
 2. Text input -- Stroke text
@@ -117,8 +117,8 @@ Settings
 3. Stamp
    - The user can stamp on the canvas using after pressing the stamp button and the cursor turns into a stamp.<br>
    - The user can also change stamp style on the dropdown list in settings.<br>
-   - Button ![brush button](readme/buttons/stamp.png)<br>
-   - Cursor ![brush cursor](resize_cursors/stamp.png)<br><br>
+   - Button ![stamp button](readme/buttons/stamp.png)<br>
+   - Cursor ![stamp cursor](resize_cursors/stamp.png)<br><br>
    - The below are some examples using stamp <br>
    - ex1 ![ex1](readme/usage/addition/stamp_star1.png)
    - ex2 ![ex2](readme/usage/addition/stamp_heart.png)
@@ -126,8 +126,8 @@ Settings
 4. ???
    - This is a special stamp. The stamp generates random shape between circle, square, heart and other shapes and also generates random color.<br>
    - The stamp is not affected by the style and color of stamp setting.<br>
-   - Button ![brush button](readme/buttons/question.png)<br>
-   - Cursor ![brush cursor](resize_cursors/cursor_question.png)<br>
+   - Button ![question button](readme/buttons/question.png)<br>
+   - Cursor ![question cursor](resize_cursors/cursor_question.png)<br>
    - The below are some examples of the feature.<br>
    - ex1 ![ex1](readme/usage/addition/question1.png)
    - ex2 ![ex2](readme/usage/addition/question2.png)
