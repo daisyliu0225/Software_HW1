@@ -93,10 +93,20 @@ Settings
 1. Color Picker
    - When the user clicks on color picker, the user can choose color and change color to draw.
    - ![color picker](readme/settings/color_picker.png)
+   - Usage
+   - Before
+     ![before](readme/usage/color_picker/before.png)
+   - Change
+     ![change](readme/usage/color_picker/changecolor.png)
+   - After
+     ![result](readme/usage/color_picker/result.png)
 <br><br>
 2. Brush size
    - When the user clicks on the brush size slider, the user can choose the size of brush and special brush.
    - ![brush size](readme/settings/brush_size.png)
+   - Usage
+   - ![size1](readme/usage/color_picker/brushSize1.png)
+   - ![size2](readme/usage/color_picker/brushSize2.png)
 <br><br>
 3. Font Settings
    - The user can change the font style in the first dropdown and change the font size in the second dropdown.
