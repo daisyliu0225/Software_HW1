@@ -92,15 +92,19 @@ Settings
 -
 1. Color Picker
    - When the user clicks on color picker, the user can choose color and change color to draw.
+   - ![color picker](readme/settings/color_picker.png)
 <br><br>
 2. Brush size
    - When the user clicks on the brush size slider, the user can choose the size of brush and special brush.
+   - ![brush size](readme/settings/brush_size.png)
 <br><br>
 3. Font Settings
    - The user can change the font style in the first dropdown and change the font size in the second dropdown.
+   - ![Font Settings](readme/settings/font_settings.png)
 <br><br>
 4. Shape Filling
    - The user can click on the checkbox to determine if the user wants the shape filled.
+   - ![shape filling](readme/settings/Shape_settings.png)
 <br><br>
 
 ## Bonus Function description
@@ -108,11 +112,12 @@ Settings
    - When click on the button, the user can draw a line on canvas. The cursor turns into line cursor
    - Button ![line button](readme/buttons/line.png)<br>
    - Cursor ![line cursor](resize_cursors/cursor_line.png)
+   - Usage ![line usage](readme/usage/addition/line.png)
 <br><br>
 2. Text input -- Stroke text
    - In addition to text style and text font, there is also a stroke text which can make the words hollow before user inputs text.
    - Below is than example of the difference of stroke/ no stroke
-     ![compare](readme/usage/stroke.png)
+   - usage ![compare](readme/usage/stroke.png)
 <br><br>
 3. Stamp
    - The user can stamp on the canvas using after pressing the stamp button and the cursor turns into a stamp.<br>
