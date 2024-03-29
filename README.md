@@ -81,23 +81,42 @@ Tools
    
 6. Reset
    - When the user clicks on the button, the user can reset the whole canvas. A small alert message shows.<br>
-   - Button ![reset button](readme/buttons/reset.png)<br><br>
+   - Button ![reset button](readme/buttons/reset.png)<br>
+   - Usage--
+   - Click
+     ![reset usage](readme/usage/tools/reset1.png)
+   - Confirm
+     ![reset usage 2](readme/usage/tools/reset2.png)<br><br>
    
 7. Upload/Download
    - Upload
      - When the user clicks on the upload button, the user can upload an image unto the canvas.<br>
-     - Button ![upload button](readme/buttons/upload.png)<br><br>
+     - Button ![upload button](readme/buttons/upload.png)<br>
+     - Usage
+       ![upload usage](readme/usage/tools/upload.png)<br>
    - Download
      - When the user clicks on the download button, the user can download the image on the canvas.<br>
-     - Button ![download button](readme/buttons/download.png)<br><br>
+     - Button ![download button](readme/buttons/download.png)<br>
+     - Usage
+       ![download usage](readme/usage/tools/download.png)<br><br>
      
 8. Redo/Undo
    - Redo
      - When the user clicks on the redo button, the user can redo canvas.
-     - Button ![redo button](readme/buttons/redo.png)<br><br>
+     - Button ![redo button](readme/buttons/redo.png)<br>
+     - Usage
+     - Before
+       ![redo before](readme/usage/tools/undoBefore.png)
+     - After
+       ![redo after](readme/usage/tools/redoAfter.png)<br>
    - Undo
      - When the user clicks on the undo button, the user can undo canvas.<br>
-     - Button ![undo button](readme/buttons/undo.png)<br><br>
+     - Button ![undo button](readme/buttons/undo.png)<br>
+     - Usage
+     - Before
+       ![undo before](readme/usage/tools/undoBefore.png)<br>
+     - After
+       ![undo after](readme/usage/tools/undoAfter.png)<br><br>
 
 Settings
 -
@@ -120,12 +139,19 @@ Settings
    - ![size2](readme/usage/brush_size/brushSize2.png)
 <br><br>
 3. Font Settings
-   - The user can change the font style in the first dropdown and change the font size in the second dropdown.
-   - ![Font Settings](readme/settings/font_settings.png)
+   - The user can change the font style in the first dropdown and change the font size in the second dropdown.<br>
+   - ![Font Settings](readme/settings/font_settings.png)<br>
+   - Usage
+   - Font style<br>
+     ![style](readme/usage/font_style/style.png)
+   - Font size
+     ![size](readme/usage/font_style/size.png)
 <br><br>
 4. Shape Filling
    - The user can click on the checkbox to determine if the user wants the shape filled.
    - ![shape filling](readme/settings/Shape_settings.png)
+   - Usage
+     ![shape filling](readme/usage/shapeFilling.png)
 <br><br>
 
 ## Bonus Function description
