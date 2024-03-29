@@ -53,28 +53,40 @@ Tools
 4. Special Brushes(Circle/Triangle/Square)
    - When the user clicks on the circle/triangle/square brush, the cursor becomes special cursors and the user can draw the shapes.<br>
    - Circle
-     - Button ![brush button](readme/buttons/circle.png)<br>
-     - Cursor ![brush cursor](resize_cursors/cursor_circle.png)<br><br>
+     - Button ![circle button](readme/buttons/circle.png)<br>
+     - Cursor ![circle cursor](resize_cursors/cursor_circle.png)<br><br>
    - Square
+     - Button ![square button](readme/buttons/square.png)<br>
+     - Cursor ![square cursor](resize_cursors/cursor_square1.png)<br><br>
    - Triangle
+     - Button ![triangle button](readme/buttons/triangle.png)<br>
+     - Cursor ![triangle cursor](resize_cursors/cursor_triangle1.png)<br><br>
    
 5. Text
-   - When the user clicks on the text button, the cursor besomes text and the user can input text.<br><br>
+   - When the user clicks on the text button, the cursor besomes text and the user can input text.<br>
+   - Button ![text button](readme/buttons/text.png)<br>
+   - Cursor ![text cursor](resize_cursors/text1.png)<br><br>
    
 6. Reset
-   - When the user clicks on the button, the user can reset the whole canvas. A small alert message shows.<br><br>
+   - When the user clicks on the button, the user can reset the whole canvas. A small alert message shows.<br>
+   - Button ![reset button](readme/buttons/circle.png)<br>
+   - Cursor ![reset cursor](resize_cursors/cursor_circle.png)<br><br>
    
 7. Upload/Download
    - Upload
-     - When the user clicks on the upload button, the user can upload an image unto the canvas.
+     - When the user clicks on the upload button, the user can upload an image unto the canvas.<br>
+     - Button ![upload button](readme/buttons/upload.png)<br><br>
    - Download
-     - When the user clicks on the download button, the user can download the image on the canvas.<br><br>
+     - When the user clicks on the download button, the user can download the image on the canvas.<br>
+     - Button ![download button](readme/buttons/download.png)<br><br>
      
 8. Redo/Undo
    - Redo
      - When the user clicks on the redo button, the user can redo canvas.
+     - Button ![redo button](readme/buttons/redo.png)<br><br>
    - Undo
-     - When the user clicks on the undo button, the user can undo canvas.<br><br>
+     - When the user clicks on the undo button, the user can undo canvas.<br>
+     - Button ![undo button](readme/buttons/undo.png)<br><br>
 
 Settings
 -
