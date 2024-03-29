@@ -293,6 +293,7 @@ questionBtn.addEventListener("click", function(){
             else if(ran == 3) drawStampSquare(e.offsetX, e.offsetY, qcolor);
             else if(ran == 4) drawStampTriangle(e.offsetX, e.offsetY, qcolor);
         }
+        cPush();
     }
 })
 
