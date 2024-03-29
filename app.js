@@ -196,8 +196,8 @@ function drawOnCanvas(txt, x, y){
     ctx.textBaseLine = "top";
     ctx.textAlign = "center";
     ctx.font = fontSize.value+ " " + fontStyle.value;
-    if(stroke.checked) ctx.strokeText(txt, x-4, y-4);
-    else ctx.fillText(txt, x-4, y-4);
+    if(stroke.checked) ctx.strokeText(txt, x, y);
+    else ctx.fillText(txt, x, y);
 }
 
 //function for stamp
