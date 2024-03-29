@@ -86,23 +86,37 @@ Tools
    - Click
      ![reset usage](readme/usage/tools/reset1.png)
    - Confirm
-     ![reset usage 2](readme/usage/tools/reset2.png)
+     ![reset usage 2](readme/usage/tools/reset2.png)<br><br>
    
 7. Upload/Download
    - Upload
      - When the user clicks on the upload button, the user can upload an image unto the canvas.<br>
-     - Button ![upload button](readme/buttons/upload.png)<br><br>
+     - Button ![upload button](readme/buttons/upload.png)<br>
+     - Usage
+       ![upload usage](readme/tools/upload.png)<br>
    - Download
      - When the user clicks on the download button, the user can download the image on the canvas.<br>
-     - Button ![download button](readme/buttons/download.png)<br><br>
+     - Button ![download button](readme/buttons/download.png)<br>
+     - Usage
+       ![download usage](readme/tools/download.png)<br><br>
      
 8. Redo/Undo
    - Redo
      - When the user clicks on the redo button, the user can redo canvas.
-     - Button ![redo button](readme/buttons/redo.png)<br><br>
+     - Button ![redo button](readme/buttons/redo.png)<br>
+     - Usage
+     - Before
+       ![redo before](readme/tools/undoBefore.png)
+     - After
+       ![redo after](readme/tools/redoAfter.png)<br>
    - Undo
      - When the user clicks on the undo button, the user can undo canvas.<br>
-     - Button ![undo button](readme/buttons/undo.png)<br><br>
+     - Button ![undo button](readme/buttons/undo.png)<br>
+     - Usage
+     - Before
+       ![undo before](readme/tools/undoBefore.png)<br>
+     - After
+       ![undo after](readme/tools/undoAfter.png)<br><br>
 
 Settings
 -
