@@ -105,8 +105,8 @@ Settings
    - When the user clicks on the brush size slider, the user can choose the size of brush and special brush.
    - ![brush size](readme/settings/brush_size.png)
    - Usage
-   - ![size1](readme/usage/color_picker/brushSize1.png)
-   - ![size2](readme/usage/color_picker/brushSize2.png)
+   - ![size1](readme/usage/brush_size/brushSize1.png)
+   - ![size2](readme/usage/brush_size/brushSize2.png)
 <br><br>
 3. Font Settings
    - The user can change the font style in the first dropdown and change the font size in the second dropdown.
