@@ -81,7 +81,12 @@ Tools
    
 6. Reset
    - When the user clicks on the button, the user can reset the whole canvas. A small alert message shows.<br>
-   - Button ![reset button](readme/buttons/reset.png)<br><br>
+   - Button ![reset button](readme/buttons/reset.png)<br>
+   - Usage--
+   - Click
+     ![reset usage](readme/usage/tools/reset1.png)
+   - Confirm
+     ![reset usage 2](readme/usage/tools/reset2.png)
    
 7. Upload/Download
    - Upload
